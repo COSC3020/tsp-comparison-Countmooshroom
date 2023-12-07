@@ -48,3 +48,8 @@ To analyse these two TSP algorithms, I first timed them as they ran with various
 | 19 | Local Search | 593, 557, 559 | 1.767ms | 1.351ms | 1.434ms | 1.434ms |
 | 20 | Held-Karp | DNF after 10 hours |  |  |  |  |
 | 20 | Local Search | 566, 543, 584 | 0.741ms | 2.785ms | 1.189ms | 1.189ms |
+
+Here is the time data in graph form:
+
+
+
