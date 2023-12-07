@@ -57,4 +57,8 @@ To analyse these two TSP algorithms, I first timed them as they ran with various
 
 ![Local Search Graph](https://github.com/COSC3020/tsp-comparison-Countmooshroom/blob/main/Local%20Search.png?raw=true)
 
+Overall, the Held-Karp algorithm has a much higher increase in time as the input size was larger.  On the Held-Karp graph, the time grows very quickly, but on the Local Search graph, the time grows much more slowly (note the scale is also much smaller).  Because of this, the Local Search algorithm is much more efficient.
+
+However, we should also consider the accuracy of the algorithms.  The Held-Karp algorithm always finds the optimal solution, so it is still useful despite it being slower with larger input sizes.  The Local Search algorithm uses a somewhat random system to find the solution, so it often finds an answer that is close to optimal but not quite.  Therefore, this algorithm should only be used to quickly find an approximate answer.
+
 
