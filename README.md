@@ -49,7 +49,12 @@ To analyse these two TSP algorithms, I first timed them as they ran with various
 | 20 | Held-Karp | DNF after 10 hours |  |  |  |  |
 | 20 | Local Search | 566, 543, 584 | 0.741ms | 2.785ms | 1.189ms | 1.189ms |
 
-Here is the time data in graph form:
+## Held-Karp Graph:
 
+![Held-Karp Graph](https://github.com/COSC3020/tsp-comparison-Countmooshroom/blob/main/Held-Karp.png?raw=true)
+
+## Local Search Graph:
+
+![Local Search Graph](https://github.com/COSC3020/tsp-comparison-Countmooshroom/blob/main/Local%20Search.png?raw=true)
 
 
