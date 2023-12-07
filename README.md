@@ -41,7 +41,7 @@ To analyse these two TSP algorithms, I first timed them as they ran with various
 | 15 | Held-Karp | 262, 262, 262 | 745.638ms | 781.183ms | 777.991ms | 777.991ms |
 | 15 | Local Search | 268, 262, 276 | 0.548ms | 0.66ms | 0.423ms | 0.548ms |
 | 17 | Held-Karp | 1564, 1564, 1564 | 4.572s | 4.665s | 4.599s | 4.599s |
-| 17 | Local Search | 1564, 1633, 1574 | 1.884ms | 1.927ms | 0.635ms | 1.884ms |
+| 17 | Local Search | 1564, 1617, 1574 | 1.884ms | 0.729ms | 0.635ms | 0.729ms |
 | 18 | Held-Karp | 501, 501, 501 | 11.079s | 11.028s | 11.169s | 11.079s |
 | 18 | Local Search | 537, 530, 519 | 0.77ms | 0.963ms | 1.263ms | 0.963ms |
 | 19 | Held-Karp | 516, 516, 516 | 26.245s | 26.104s | 26.110s | 26.110s |
