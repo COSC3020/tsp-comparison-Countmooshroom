@@ -69,6 +69,18 @@ Purple is the Local Search algorithm
 
 Overall, the Held-Karp algorithm has a much higher increase in time as the input size was larger.  On the Held-Karp graph, the time grows very quickly, but on the Local Search graph, the time grows much more slowly (note the scale is also much smaller).  Because of this, the Local Search algorithm is much more efficient.
 
-However, we should also consider the accuracy of the algorithms.  The Held-Karp algorithm always finds the optimal solution, so it is still useful despite it being slower with larger input sizes.  The Local Search algorithm uses a somewhat random system to find the solution, so it often finds an answer that is close to optimal but not quite.  Therefore, this algorithm should only be used to quickly find an approximate answer.
+## Output of Each Algorithm:
+
+### Key:
+
+Orange X's are the Held-Karp algorithm
+
+Purple circles are the Local Search algorithm
+
+![Output Graph](https://github.com/COSC3020/tsp-comparison-Countmooshroom/blob/main/Output%20Graph.png?raw=true)
+
+(note: these points are the average of three outputs from the table at the top)
+
+We should consider the accuracy of the algorithms.  The Held-Karp algorithm always finds the optimal solution, so it is still useful despite it being slower with larger input sizes.  The Local Search algorithm uses a somewhat random system to find the solution, so it often finds an answer that is close to optimal but not quite.  On the graph, you can even see that the Local Search algorithm always produces an output greater than or equal to the Held-Karp algorithm.  Also, the Local Search appears to lose accuracy more as the input size is larger.  Therefore, this algorithm should only be used to quickly find an approximate answer.
 
 
